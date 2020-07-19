@@ -28,6 +28,7 @@ class SecondViewController: UIViewController {
     @IBOutlet weak var tipAmount: UILabel!
     
     @IBOutlet weak var splitLabel: UILabel!
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -67,6 +68,9 @@ class SecondViewController: UIViewController {
         splitBillAmount.text = String(format: "$%.2f", splitBill)
     }
     
+    @IBAction func settingTapped(_ sender: Any) {
+        performSegue(withIdentifier: "toSettings", sender: self)
+    }
 
 
     /*
