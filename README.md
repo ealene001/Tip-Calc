@@ -13,7 +13,7 @@ The following **required** functionality is complete:
 * [x] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
 
 The following **optional** features are implemented:
-* [o] Settings page to change the default tip percentage.
+* [ ] Settings page to change the default tip percentage.
     * (Almost Functional!)
 * [x] UI animations
 * [ ] Remembering the bill amount across app restarts (if <10mins)
@@ -29,7 +29,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://https://imgur.com/tR6qNle' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://imgur.com/tR6qNle' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
